@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    padding: 20px 50px;
+    border: 1px solid blue;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width:500px){
+    li{
+        padding: 15px 30px;
+        margin-bottom: 20px;
+    }
+
+    ul{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (min-width:400px){
+    li{
+        padding: 15px 30px;
+        margin-bottom: 20px;
+    }
+
+    ul{
+        flex-wrap: wrap;
+    }
+
+}
